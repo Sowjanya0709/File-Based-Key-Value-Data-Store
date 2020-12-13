@@ -74,7 +74,7 @@ public class DataStore {
 
 			}
 		}
-
+               //functionality to be performed is chosen
 		while (true) {
 			String key = "";
 			String value = "";
@@ -113,7 +113,7 @@ public class DataStore {
 			}
 		}
 	}
-
+        //reads the file
 	public static void read(String inputFilePath) {
 		try {
 			FileReader fileReader = new FileReader(inputFilePath);
@@ -127,7 +127,7 @@ public class DataStore {
 			e.printStackTrace();
 		}
 	}
-
+        //reads the value of the desired key 
 	static void readKey(String key, String inputFilePath) {
 
 		if (currentFileData.containsKey(key)) {
@@ -141,7 +141,7 @@ public class DataStore {
 			System.out.println("Sorry! The key does not exist.");
 		}
 	}
-
+        //creates a new key-value pair
 	@SuppressWarnings("unchecked")
 	static void create(String key, String value, String inputFilePath) {
 
@@ -169,7 +169,7 @@ public class DataStore {
 			System.out.println("Sorry! The key already exists.");
 		}
 	}
-
+        //deletes the value of the desired key
 	static void deleteKey(String key, String inputFilePath) {
 
 		if (currentFileData.containsKey(key)) {
