@@ -13,13 +13,13 @@ Eclipse IDE for 64-bit
 Download or clone the project.
 
 
-Compile and Run TestDataEntry.java and DataStore.java using Eclipse IDE.
+Compile and Run src/TestDataEntry.java and src/DataStore.java using Eclipse IDE.
 
 
-TestDataEntry.java -> Creates default json file and key-value pair
+src/TestDataEntry.java -> Creates default json file and key-value pair
 
 
-DataStore.java -> Performs CRD 
+src/DataStore.java -> Performs CRD 
  	
 # Contributors
 
