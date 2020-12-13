@@ -32,6 +32,7 @@ public class DataStore {
 
 			if (inputFilePath.equals("Default") || inputFilePath.equals("default") || inputFilePath.equals("DEFAULT")) {
 				inputFilePath = defaultFilePath;
+				break;
 			} else {
 				File f = new File(inputFilePath);
 
